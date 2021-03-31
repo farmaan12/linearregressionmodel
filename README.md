@@ -6,5 +6,7 @@ After adding up this information the system will let you know if you are eligbil
 
 To check this work live - https://damp-brook-54113.herokuapp.com/
 
+![](https://github.com/farmaan12/linearregressionmodel/blob/main/Capture.PNG)
+
 Thank you!
  
