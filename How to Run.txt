@@ -1,0 +1,35 @@
+Point 1. Your main python file name should be application.py
+Point 2. Your flask object name, which we have defined in application.py should also be the application.
+Point 3. .ebignore  is responsible to hold the name of those files which we don't want to push on a cloud.
+Point 4. Create a requirements.txt file.
+        Command : pip freeze > requirements.txt
+Point 5. Create a folder called .ebextensions
+Point 6. Inside .ebextensions we need a python.config file.
+Point 7. Mention the commands in python.config
+            option_settings:
+              "aws:elasticbeanstalk:container:python":
+                WSGIPath: application:application
+
+
+
+====================================================================================
+
+step 1 - create new anaconda environment
+         conda create -n linearapp python==3.6.9
+
+step 2 - install the requirements.txt (copy the requirements file to conda environment and change the working director of anacoonda cmd and then execute this command to work properly.
+         pip install -r requirements.txt
+
+step 3 - create txt filename as procfile
+         there is no extension for this file // P should be capital in procfile
+step 4 - initialize your project as git project
+         git init
+         git status
+         git add .
+         git commit -m "initial commit"
+
+step 5 - do these operations in git bash itself
+         heroku create
+         git remote -v
+         git push herolu master
+
