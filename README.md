@@ -4,7 +4,9 @@ Inputs needed are : GRE Score , TOEFL Score , University Rating , SOP Score , LO
 
 After adding up this information the system will let you know if you are eligbile to get an admission for abroad studies.
 
-To check this work live - https://damp-brook-54113.herokuapp.com/
+To check this work live deployed in heroku - https://murmuring-brushlands-07980.herokuapp.com/ 
+
+To check this work live deployed in GCP - https://linearregressiongcp.df.r.appspot.com/
 
 ![](https://github.com/farmaan12/linearregressionmodel/blob/main/Capture.PNG)
 
